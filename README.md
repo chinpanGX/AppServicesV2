@@ -1,2 +1,2 @@
-# AppServiceV2
+# AppServicesV2
 Unityで汎用的に使えるモジュールをまとめたリポジトリ
