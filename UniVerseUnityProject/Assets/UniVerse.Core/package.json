@@ -1,0 +1,12 @@
+﻿{
+    "name": "com.chinpangx.universe.core",
+    "version": "1.0.0",
+    "displayName": "UniVerse.Core",
+    "dependencies": {
+        "com.cysharp.unitask": "2.5.10"
+    },
+    "author": {
+        "name" : "shota deai"
+    },
+    "license": "MIT"
+}
