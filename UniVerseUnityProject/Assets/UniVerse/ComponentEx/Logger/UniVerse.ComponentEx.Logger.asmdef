@@ -1,0 +1,14 @@
+{
+    "name": "UniVerse.ComponentEx.Logger",
+    "rootNamespace": "UniVerse.ComponentEx.Logger",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": false,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

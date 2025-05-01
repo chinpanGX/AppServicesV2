@@ -1,0 +1,17 @@
+{
+    "name": "UniVerse.ViewSystem",
+    "rootNamespace": "UniVerse.ViewSystem",
+    "references": [
+        "GUID:0f2fc98a6a1e68e46973c73506a7d1f4",
+        "GUID:ffde8938b5e49904cb315a13e3824fcc"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
