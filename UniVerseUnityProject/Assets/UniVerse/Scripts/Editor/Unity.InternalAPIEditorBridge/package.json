@@ -1,0 +1,10 @@
+{
+    "name": "com.chinpangx.unity.internalapieditorbridge",
+    "displayName": "DeveloperTools.Unity.InternalAPIEditorBridge",
+    "version": "1.0.0",
+    "description": "UnityEditor.dllのInternalなクラスにアクセスをして拡張したツールを置く場所",
+    "dependencies": {},
+    "author": {
+        "name": "shota.deai"
+    }
+}

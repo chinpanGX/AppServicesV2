@@ -1,0 +1,16 @@
+{
+    "name": "UniVerse.Editor.WorkSpace",
+    "rootNamespace": "UniVerse.Editor.WorkSpace",
+    "references": [
+        "GUID:d3ea9d745c737b0469fe4be923fa802f"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
