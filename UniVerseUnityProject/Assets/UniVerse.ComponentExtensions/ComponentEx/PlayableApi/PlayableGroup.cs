@@ -2,7 +2,7 @@
 using UnityEngine;
 using UnityEngine.Playables;
 
-namespace UniVerse.ComponentExtensions
+namespace UniVerse.ComponentEx
 {
     [Serializable]
     public class PlayableGroup

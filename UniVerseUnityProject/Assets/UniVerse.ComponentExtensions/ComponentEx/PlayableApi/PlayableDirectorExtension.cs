@@ -3,9 +3,8 @@ using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Playables;
 
-namespace UniVerse.ComponentExtensions
+namespace UniVerse.ComponentEx
 {
-
     public static class PlayableDirectorExtensions
     {
         public static async UniTask PlayAsync(this PlayableDirector playableDirector, CancellationToken token)

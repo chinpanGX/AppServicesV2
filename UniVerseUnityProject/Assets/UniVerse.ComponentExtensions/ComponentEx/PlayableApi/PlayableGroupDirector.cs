@@ -5,7 +5,7 @@ using Cysharp.Threading.Tasks;
 using UnityEngine;
 using UnityEngine.Playables;
 
-namespace UniVerse.ComponentExtensions
+namespace UniVerse.ComponentEx
 {
     [RequireComponent(typeof(PlayableDirector))]
     public class PlayableGroupDirector : MonoBehaviour
