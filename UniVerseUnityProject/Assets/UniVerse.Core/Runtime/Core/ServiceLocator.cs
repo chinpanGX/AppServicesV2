@@ -20,9 +20,7 @@ namespace UniVerse.Core
         /// </returns>
         public static ServiceLocatorBuilder Register<T>(T instance) where T : class
         {
-            if (instance == null) throw new ArgumentNullException(nameof(instance));
-
-            InstanceDict[typeof(T)] = instance;
+            InstanceDict[typeof(T)] = instance ?? throw new ArgumentNullException(nameof(instance));
             return new ServiceLocatorBuilder(instance);
         }
 

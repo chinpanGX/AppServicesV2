@@ -1,4 +1,4 @@
-﻿namespace UniVerse.ViewSystem
+﻿namespace UnVerse.Core
 {
     public class ViewScreen : BaseScreen
     {

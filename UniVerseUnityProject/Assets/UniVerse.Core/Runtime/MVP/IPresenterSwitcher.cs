@@ -1,6 +1,6 @@
 using Cysharp.Threading.Tasks;
 
-namespace UniVerse.AppSystem
+namespace UnVerse.Core
 {
     public interface IPresenterSwitcher
     {
