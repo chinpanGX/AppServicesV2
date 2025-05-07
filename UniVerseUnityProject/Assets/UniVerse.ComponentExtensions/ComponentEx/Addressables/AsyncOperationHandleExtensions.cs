@@ -1,45 +1,52 @@
 ﻿using System;
-using UnityEngine;
+using System.Threading;
 using UnityEngine.AddressableAssets;
 using UnityEngine.ResourceManagement.AsyncOperations;
 using UnityEngine.ResourceManagement.ResourceProviders;
-using Cysharp.Threading.Tasks;
 
 namespace UniVerse.ComponentEx
 {
     public static class AsyncOperationHandleExtensions
     {
         /// <summary>
-        /// AsyncOperationHandleのライフタイムを指定したGameObjectに紐付けます。
+        /// 指定したCancellationTokenで非同期処理(AsyncOperationHandle)のライフサイクルを管理します。
+        /// AsyncOperationHandleが無効な場合は例外をスローします。
         /// </summary>
-        /// <param name="self">バインド対象の非同期操作ハンドル。</param>
-        /// <param name="gameObject">ハンドルのライフタイムを紐付ける対象のGameObject。</param>
-        /// <returns>紐付けられた非同期操作ハンドルを返します。</returns>
-        /// <exception cref="ArgumentNullException">gameObjectがnullの場合にスローされる例外。</exception>
-        public static AsyncOperationHandle<T> AddTo<T>(this AsyncOperationHandle<T> self, GameObject gameObject)
+        /// <typeparam name="T">非同期処理の結果の型。</typeparam>
+        /// <param name="self">対象のAsyncOperationHandle。</param>
+        /// <param name="cancellationToken">非同期処理をキャンセルするためのトークン。</param>
+        /// <returns>元のAsyncOperationHandleを返します。</returns>
+        /// <exception cref="InvalidOperationException">AsyncOperationHandleが無効な場合にスローされます。</exception>
+        /// <exception cref="OperationCanceledException">キャンセル処理が要求された場合にスローされます。</exception>
+        public static AsyncOperationHandle<T> AddTo<T>(this AsyncOperationHandle<T> self,
+            CancellationToken cancellationToken)
+            where T : class
         {
-            if (gameObject == null)
+            if (self.IsValid() == false)
             {
-                Release();
-                throw new ArgumentNullException(nameof(gameObject));
+                throw new InvalidOperationException("AsyncOperationHandle is not valid.");
             }
 
-            var cancellationToken = gameObject.GetCancellationTokenOnDestroy();
+            if (cancellationToken.IsCancellationRequested)
+            {
+                Release();
+                throw new OperationCanceledException("The operation was canceled.");
+            }
+
             cancellationToken.Register(Release);
             return self;
 
             void Release()
             {
-                if (self.IsValid())
+                if (!self.IsValid()) return;
+
+                if (typeof(T) == typeof(SceneInstance))
                 {
-                    if (typeof(T) == typeof(SceneInstance))
-                    {
-                        Addressables.UnloadSceneAsync(self);
-                    }
-                    else
-                    {
-                        Addressables.Release(self);
-                    }
+                    Addressables.UnloadSceneAsync(self);
+                }
+                else
+                {
+                    Addressables.Release(self);
                 }
             }
         }
