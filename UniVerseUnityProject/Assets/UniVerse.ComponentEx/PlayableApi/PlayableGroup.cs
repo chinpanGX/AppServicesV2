@@ -13,9 +13,9 @@ namespace UniVerse.ComponentEx
         public string Key => key;
         public PlayableAsset PlayableAsset => playableAsset;
 
-        public PlayableAsset GetPlayableAssetByKey(string key)
+        public PlayableAsset GetPlayableAssetByKey(string request)
         {
-            return key == this.key ? playableAsset : null;
+            return request == key ? playableAsset : null;
         }
     }
 }

@@ -7,6 +7,7 @@ using UnityEngine.Playables;
 
 namespace UniVerse.ComponentEx
 {
+    using Logger;
     [RequireComponent(typeof(PlayableDirector))]
     public class PlayableGroupDirector : MonoBehaviour
     {
@@ -19,7 +20,7 @@ namespace UniVerse.ComponentEx
         {
             if (playableGroups.Length == 0)
             {
-                Debug.LogError("No playable groups assigned.");
+                LoggerEx.LogError("PlayableGroup is null");
                 return;
             }
             
@@ -34,7 +35,7 @@ namespace UniVerse.ComponentEx
         {
             if (!playableAssets.TryGetValue(key, out var playableAsset))
             {
-                Debug.LogError($"Playable asset with key '{key}' not found.");
+                LoggerEx.LogError($"PlayableAsset not found for key: {key}");
                 return;
             }
             
