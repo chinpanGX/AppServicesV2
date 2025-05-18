@@ -1,0 +1,15 @@
+﻿# Unityプロジェクトの改行コードを設定
+*.cs     text eol=lf
+*.shader text eol=lf
+*.mat    text eol=lf
+*.anim   text eol=lf
+*.unity  text eol=lf
+*.asset  text eol=lf
+*.meta   text eol=lf
+
+*.cs linguist-language=C#
+*.meta linguist-generated=true
+*.unity linguist-generated=true
+*.asset linguist-generated=true
+*.shader linguist-vendored=true
+*.mat linguist-vendored=true

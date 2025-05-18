@@ -1,0 +1,17 @@
+{
+    "name": "UniVerse.ComponentEx.PlayableApi",
+    "rootNamespace": "UniVerse.ComponentEx.PlayableApi",
+    "references": [
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:5793938cd26c6b24d99a8f3a03d35563"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

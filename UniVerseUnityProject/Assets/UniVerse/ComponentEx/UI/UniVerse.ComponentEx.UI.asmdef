@@ -1,0 +1,17 @@
+{
+    "name": "UniVerse.ComponentEx.UI",
+    "rootNamespace": "UniVerse.ComponentEx.UI",
+    "references": [
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:5793938cd26c6b24d99a8f3a03d35563"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

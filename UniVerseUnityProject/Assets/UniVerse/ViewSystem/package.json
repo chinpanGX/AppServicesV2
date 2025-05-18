@@ -1,0 +1,13 @@
+﻿{
+  "name": "com.chinpangx.universe.viewsystem",
+  "version": "1.0.0",
+  "displayName": "UniVerse ViewSystem",
+  "dependencies": {
+    "com.chinpangx.universe.core": "1.0.0"
+  },
+  "description": "View System for UniVerse",
+  "author": {
+    "name": "Shota deai"
+  },
+  "license": "MIT"
+}

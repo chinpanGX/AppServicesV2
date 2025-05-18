@@ -1,0 +1,20 @@
+{
+    "name": "UniVerse.ComponentEx.UI.Button",
+    "rootNamespace": "UniVerse.ComponentEx.UI.Button",
+    "references": [
+        "GUID:f51ebe6a0ceec4240a699833d6309b23",
+        "GUID:77221876cc6b8244180b96e320b1bcd4",
+        "GUID:e18f0b5d0123e094287facc9f76f9905",
+        "GUID:5793938cd26c6b24d99a8f3a03d35563",
+        "GUID:6bfb8876bcf978d41955c2232c2b3756"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

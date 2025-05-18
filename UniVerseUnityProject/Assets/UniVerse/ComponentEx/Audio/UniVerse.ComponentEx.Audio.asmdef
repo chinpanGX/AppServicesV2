@@ -1,0 +1,14 @@
+{
+    "name": "UniVerse.ComponentEx.Audio",
+    "rootNamespace": "UniVerse.ComponentEx.Audio",
+    "references": [],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
