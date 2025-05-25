@@ -39,3 +39,8 @@ https://github.com/chinpanGX/UniVerseKit.git?path=UniVerseUnityProject/Assets/Un
 > `https://github.com/chinpanGX/UniVerseKit.git?path=UniVerseUnityProject/Assets/UniVerse/ViewSystem`
 > 
 > `https://github.com/chinpanGX/UniVerseKit.git?path=UniVerseUnityProject/Assets/UniVerse/ComponentEx`
+
+# ライセンス
+本ソフトウェアはMITライセンスで公開しています。
+
+https://github.com/chinpanGX/UniVerseKit/blob/main/LICENSE
