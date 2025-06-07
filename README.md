@@ -25,8 +25,22 @@ Addressables, PlayableAPI, UGUI, の拡張機能を提供
 # インストール
 ※ 各パッケージは依存しているパッケージをインストール済みしていることが前提
 
-### UniVerse Kitすべてのインストール
+### UniVerse Kit のインストール
 1. PackageManager > Install package from git URL...
 ```
 https://github.com/chinpanGX/UniVerseKit.git?path=UniVerseUnityProject/Assets/UniVerse
 ```
+
+> [!TIP]
+> Core, ViewSystem, ComponentExを単体でインストールすることも可能です。
+> 
+> `https://github.com/chinpanGX/UniVerseKit.git?path=UniVerseUnityProject/Assets/UniVerse/Core`
+> 
+> `https://github.com/chinpanGX/UniVerseKit.git?path=UniVerseUnityProject/Assets/UniVerse/ViewSystem`
+> 
+> `https://github.com/chinpanGX/UniVerseKit.git?path=UniVerseUnityProject/Assets/UniVerse/ComponentEx`
+
+# ライセンス
+本ソフトウェアはMITライセンスで公開しています。
+
+https://github.com/chinpanGX/UniVerseKit/blob/main/LICENSE
