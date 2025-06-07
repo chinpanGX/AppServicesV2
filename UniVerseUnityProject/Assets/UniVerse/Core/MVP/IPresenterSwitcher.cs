@@ -6,5 +6,4 @@ namespace UnVerse.Core
     {
         UniTask SwitchPresenterAsync(string key);
     }
-
 }
