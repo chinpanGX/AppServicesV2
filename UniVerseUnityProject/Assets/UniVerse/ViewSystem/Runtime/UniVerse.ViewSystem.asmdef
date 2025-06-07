@@ -3,7 +3,9 @@
     "rootNamespace": "UniVerse.ViewSystem",
     "references": [
         "GUID:0f2fc98a6a1e68e46973c73506a7d1f4",
-        "GUID:ffde8938b5e49904cb315a13e3824fcc"
+        "GUID:ffde8938b5e49904cb315a13e3824fcc",
+        "GUID:3b675bfb6c8819b40a9500cd448f2fce",
+        "GUID:f51ebe6a0ceec4240a699833d6309b23"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],

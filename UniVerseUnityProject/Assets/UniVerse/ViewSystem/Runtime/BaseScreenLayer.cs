@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+using UniVerse.Core;
 using UniVerse.ViewSystem.Logger;
-using UnVerse.Core;
 
-namespace UnVerse.ViewSystem
+namespace UniVerse.ViewSystem
 {
     public abstract class BaseScreenLayer : MonoBehaviour
     {

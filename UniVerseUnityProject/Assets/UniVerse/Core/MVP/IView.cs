@@ -1,7 +1,7 @@
 using Cysharp.Threading.Tasks;
 using UnityEngine;
 
-namespace UnVerse.Core
+namespace UniVerse.Core
 {
     public interface IView
     {

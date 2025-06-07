@@ -1,6 +1,6 @@
 using System;
 
-namespace UnVerse.Core
+namespace UniVerse.Core
 {
     public interface IModel : IDisposable
     {

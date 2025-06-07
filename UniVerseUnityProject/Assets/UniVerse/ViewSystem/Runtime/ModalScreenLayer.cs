@@ -1,6 +1,6 @@
-﻿namespace UnVerse.ViewSystem
+﻿namespace UniVerse.ViewSystem
 {
-    public class ModalScreenLayer : BaseScreenLayer
+    public sealed class ModalScreenLayer : BaseScreenLayer
     {
         protected override int SortingOrder { get; set; } = 1000;
     }

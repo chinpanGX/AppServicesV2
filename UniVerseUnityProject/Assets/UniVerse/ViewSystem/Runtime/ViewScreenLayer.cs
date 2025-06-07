@@ -1,6 +1,6 @@
-﻿namespace UnVerse.ViewSystem
+﻿namespace UniVerse.ViewSystem
 {
-    public class ViewScreenLayer : BaseScreenLayer
+    public sealed class ViewScreenLayer : BaseScreenLayer
     {
         protected override int SortingOrder { get; set; } = 0;
     }

@@ -1,6 +1,6 @@
 using UnityEngine;
 
-namespace UnVerse.ViewSystem
+namespace UniVerse.ViewSystem
 {
     [RequireComponent(typeof(RectTransform))]
     internal class SafeAreaFitter : MonoBehaviour

@@ -1,7 +1,7 @@
 using System;
 using Cysharp.Threading.Tasks;
 
-namespace UnVerse.Core
+namespace UniVerse.Core
 {
     public interface IPresenter : IDisposable
     {
