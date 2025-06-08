@@ -2,7 +2,7 @@
     "name": "com.chinpan.universe.kit",
     "displayName": "UniVerse Kit",
     "description": "汎用的に使える機能の拡張機能群",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "dependencies": {
         "com.cysharp.unitask": "2.5.10",
         "com.cysharp.r3": "1.3.0",

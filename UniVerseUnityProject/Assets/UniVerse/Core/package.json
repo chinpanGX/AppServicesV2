@@ -1,6 +1,6 @@
 ﻿{
     "name": "com.chinpangx.universe.core",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "displayName": "UniVerse.Core",
     "dependencies": {
         "com.cysharp.unitask": "2.5.10"
