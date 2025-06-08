@@ -22,6 +22,10 @@ Unityで汎用的に使えるモジュール群です。
 Addressables, PlayableAPI, UGUI, の拡張機能を提供
 ※ UniTask, R3に依存
 
+### AudioAnker
+
+Unityのオーディオ機能を提供
+
 # インストール
 ※ 各パッケージは依存しているパッケージをインストール済みしていることが前提
 
@@ -39,6 +43,12 @@ https://github.com/chinpanGX/UniVerseKit.git?path=UniVerseUnityProject/Assets/Un
 > `https://github.com/chinpanGX/UniVerseKit.git?path=UniVerseUnityProject/Assets/UniVerse/ViewSystem`
 > 
 > `https://github.com/chinpanGX/UniVerseKit.git?path=UniVerseUnityProject/Assets/UniVerse/ComponentEx`
+
+### AudioAnker のインストール
+1. PackageManager > Install package from git URL...
+```
+https://github.com/chinpanGX/UniVerseKit.git?path=UniVerseUnityProject/Assets/AudioAnker
+```
 
 # ライセンス
 本ソフトウェアはMITライセンスで公開しています。

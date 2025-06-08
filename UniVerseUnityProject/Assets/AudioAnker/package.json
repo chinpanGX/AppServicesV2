@@ -1,0 +1,13 @@
+﻿{
+  "name": "com.chinpangx.audioanker",
+  "version": "1.0.0",
+  "displayName": "Audio Anker",
+  "dependencies": {
+    "com.cysharp.unitask": "2.5.10",
+    "com.unity.addressables": "2.4.6"
+  },
+  "author": {
+    "name" : "shota deai"
+  },
+  "license": "MIT"
+}
